@@ -4,19 +4,110 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/style.css">
     <title>Prework Study Guide</title>
   </head>
   <body>
     <header id="top">
       <h1>Prework Study Guide</h1>
       <img src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
+      <h2>✨ Open the Console to See What's Happening ✨</h2>
     </header>
     <main>
-      <!-- Student code goes here -->
+      <section class="card" id="html-section">
+        
+        <h2>HTML</h2>
+        <ul>
+          
+          <li>Hypertext Markup Language </li>
+          <li>Frame of webpage</li>
+          <li>The head element contains information about the webpage (not visible to user).</li>
+          <li>The body element represents the visible content shown to the user.</li>
+          <li>The head element is a container for metadata</li>
+          <li>Meta elements contain information about the page that is used by the browser. </li>
+          <li>In semantic HTML elements, the name of the element describes its content and the role it plays on a webpage.</li>
+          <li>When working with visible HTML elements, the content is contained between an opening tag and a closing tag. These tags are most often represented by angle brackets with associated tag names contained inside</li>
+          <li>The alt text is important for screen readers and other assistive technologies. Alt text can also improve search engine rankings for your website.</li>
+        </ul>
+      </section>
+   
+      <section class="card" id="css-section">
+        <h2>CSS</h2>
+        <ul>
+          <li>Cascading Style Sheets</li>
+          <li>Defines style of webpage</li>
+          <li>Makes webpage readable and visually appealing</li>
+          <li>inline CSS</li>
+            <li>direct</li>
+            <li>quick</li>
+            <li>permanent</li>
+            <li>less flexible (each inline style must be edited individually whenever you make a design change)</li>
+          <li>internal CSS style sheet</li>
+            <li>embed an entire stylesheet directly in the HTML file</li>
+            <li>rules only apply to that page</li>
+            <li>you can configure CSS classes and IDs, which are used to identify elements, to style multiple elements in the page code</li>
+            <li>a single change to the CSS rule will apply to all tagged page elements</li>
+          <li>external CSS style sheet</li>
+            <li>most common</li>
+            <li>allows developers to keep all their CSS rules in a separate file, which makes design changes easier</li>
+            
+            <li>a "link" element creates the connection to the external file.</li>
+            <li>The "rel" attribute specifies the relationship between the current document and the linked document resource.</li>
+            <li>The "href" attribute specifies the location of the external resource</li>
+            <li>A margin indicates how much space we want around the outside of an element.</li>
+  <li>A padding indicates how much space we want around the content inside an element.</li>
+          </ul>
+      </section>
+   
+      <section class="card" id="git-section">
+        <h2>GIT</h2>
+        <ul>
+          <Li>In command line, navigate to main branch of directory</Li>
+          <li>Ensure you have latest main - git pull origin main</li>
+          <li>Create a new feature branch - git checkout -b branch-name</li>
+          <li>git status: checks what branch we are currently on</li>
+          <li>add code in VS code and save</li>
+          <li>"Stage your changes," commit changes - git add -A</li>
+          <li>Comments - git commit -m "added code to HTML file"</li>
+          <li>Push changes - git push origin feature/add-html</li>
+          <li>Navigate to repository on GitHub</li>
+          <li>Navigate to branch on GitHub</li>
+          <li>Click "pull requests" tab</li>
+          <li>Click "New Pull Request" button</li>
+          <li>On pull request form, enter title and description</li>
+          <li>Click "create pull request"</li>
+          <li>Click the "Merge pull request" button and confirm</li>
+        </ul>
+      </section>
+   
+      <section class="card" id="javascript-section">
+        <h2>JavaScript</h2>
+        <ul>
+          <li>Adds interactivity to a webpage</li>
+          <li>Browser reads from top to bottom. Order matters.</li>
+          <li>Variables = containers that store values; start with "let" or "const"</li>
+          <li>JS is case sensitive</li>
+          <li>strings in quotations</li>
+          <li>Boolean = true/false statements</li>
+          <li>Comments can be added with code using /* or //(short). The browser ignores comments.</li>
+          <li>if statements interrupt control flow</li>
+          <li>If one condition is truthy, the computer will execute the code that we provide between curly brackets. But if the condition is not truthy, the code will not execute.</li>
+          <li>Array = single variable that is used to hold a group of data.</li>
+          <li>First item in array has index zero</li>
+          <li>A "for" loop uses the predictable pattern of indices to perform a task on all the items in an array by allowing a single code block to be executed over and over.</li>
+          <li>To use the for loop, we need the shape's index and the array's length</li>
+          <li>x++ increments x by 1 (x+1)</li>
+          <li>Comment out code with /* rather than deleting. Makes code inactive</li>
+          <li>Must call a function. Functions do not automatically execute</li>
+          <li>Use console.log to test interactivity of webpage</li>
+        </ul>
+      </section>
     </main>
 
     <footer>
       <p>I can code!</p>
     </footer>
+    <script src="./assets/script.js"></script>
   </body>
 </html>
+
